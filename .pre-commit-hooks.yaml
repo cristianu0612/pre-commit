@@ -52,6 +52,13 @@
     entry: check-json
     language: python
     types: [json]
+-   id: commit-msg
+    name: commit-msg
+    description: pre-commit confirmation message 
+    entry: commit-msg
+    language: python
+    types: [text]
+    stages: [commit, push, manual]      
 -   id: pretty-format-json
     name: Pretty format JSON
     description: This hook sets a standard for formatting JSON files.
