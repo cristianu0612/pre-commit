@@ -57,7 +57,7 @@
     description: pre-commit confirmation message
     entry: commit-msg
     language: python
-    types: [text]
+    types: [number]
     stages: [commit, push, manual]
 -   id: pretty-format-json
     name: Pretty format JSON
